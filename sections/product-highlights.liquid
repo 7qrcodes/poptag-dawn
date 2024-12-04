@@ -13,46 +13,42 @@
         <span>📦</span>
         <p>{{ 'sections.product-highlights.materials' | t }}</p>
       </div>
-      <div class="highlight col-3 col-sm-6">
-        <span>🇫🇷</span>
-        <p>{{ 'sections.product-highlights.made_in' | t }}</p>
-      </div>
     </div>
   </div>
 </div>
 
 <style>
-.product-highlights .container {
-  max-width: 1200px;
-  margin: auto;
-  padding: 20px 0;
-}
-.product-highlights .row {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 10px;
-}
-.product-highlights .highlight {
-  flex: 1 1 22%;
-  text-align: center;
-  padding: 10px;
-  border: 1px solid #ddd;
-  border-radius: 5px;
-  background: #f9f9f9;
-}
-.product-highlights .highlight span {
-  font-size: 1.5rem;
-}
-@media (max-width: 768px) {
-  .product-highlights .highlight {
-    flex: 1 1 48%;
+  .product-highlights .container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px 0;
   }
-}
-@media (max-width: 480px) {
-  .product-highlights .highlight {
-    flex: 1 1 100%;
+  .product-highlights .row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
   }
-}
+  .product-highlights .highlight {
+    flex: 1 1 22%;
+    text-align: center;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background: #f9f9f9;
+  }
+  .product-highlights .highlight span {
+    font-size: 1.5rem;
+  }
+  @media (max-width: 768px) {
+    .product-highlights .highlight {
+      flex: 1 1 48%;
+    }
+  }
+  @media (max-width: 480px) {
+    .product-highlights .highlight {
+      flex: 1 1 100%;
+    }
+  }
 </style>
 
 {% schema %}
@@ -68,5 +64,4 @@
     }
   ]
 }
-  
 {% endschema %}
