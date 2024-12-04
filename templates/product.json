@@ -84,6 +84,13 @@
             "content": "<p>Nous créons les codes QR, chaque plaque ayant son propre code QR unique.<br/><br/>Lorsque vous recevez votre plaque et que vous la configurez, elle redirigera vers votre page Google.</p>",
             "page": ""
           }
+        },
+        "text_WceAcQ": {
+          "type": "text",
+          "settings": {
+            "text": "⚡ <strong>Compatibles avec tous les téléphones !</strong> Vos clients n'ont pas besoin d'application.",
+            "text_style": "body"
+          }
         }
       },
       "block_order": [
@@ -97,7 +104,8 @@
         "custom_liquid_3g7pBf",
         "description",
         "collapsible_tab_96LAHJ",
-        "collapsible_tab_6wEbYQ"
+        "collapsible_tab_6wEbYQ",
+        "text_WceAcQ"
       ],
       "settings": {
         "enable_sticky_info": true,
