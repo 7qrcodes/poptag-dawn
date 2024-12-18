@@ -113,10 +113,10 @@
         "media_size": "medium",
         "constrain_to_viewport": true,
         "media_fit": "contain",
-        "gallery_layout": "stacked",
+        "gallery_layout": "thumbnail",
         "media_position": "left",
         "image_zoom": "hover",
-        "mobile_thumbnails": "hide",
+        "mobile_thumbnails": "show",
         "hide_variants": true,
         "enable_video_looping": false,
         "padding_top": 36,
@@ -190,7 +190,6 @@
         "column_R9MDyT": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/mmmm.webp",
             "title": "<strong>...qui donnent leurs avis 5 étoiles...</strong>",
             "text": "<p>Vos clients sont vos meilleurs vendeurs, et vous le savez ! Et vous avez l'occasion de demander leurs avis tous les jours</p>",
             "link_label": "",
