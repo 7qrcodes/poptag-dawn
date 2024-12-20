@@ -1,6 +1,7 @@
 <!doctype html>
 <html class="js" lang="{{ request.locale.iso_code }}">
   <head>
+ {%- render 'ecom_header' -%}
 <!-- BEAE-GLOBAL-FONT --> 
 {% capture the_snippet_global_font %}{% include 'beae-global-font' %}{% endcapture %} {% unless the_snippet_global_font contains 'Liquid error' %} {{ the_snippet_global_font }} {% endunless %} 
  <!-- END BEAE-GLOBAL-FONT -->
@@ -390,5 +391,5 @@
 {%- if content_for_layout contains 'beae-builder' -%}
 {%- render 'beae_analytic_helper' -%}
 {%- endif -%}
-<!-- END BEAE-ANALYTICS --></body>
+<!-- END BEAE-ANALYTICS -->{%- render "ecom_footer"-%}</body>
 </html>
