@@ -16,6 +16,13 @@
           "type": "shopify://apps/judge-me-reviews/blocks/preview_badge/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
           "settings": {}
         },
+        "text_8HR7Fp": {
+          "type": "text",
+          "settings": {
+            "text": "Recommandé par plus de 200 commerces suisses",
+            "text_style": "body"
+          }
+        },
         "title": {
           "type": "title",
           "settings": {}
@@ -99,6 +106,7 @@
       },
       "block_order": [
         "judge_me_reviews_preview_badge_ANAzpp",
+        "text_8HR7Fp",
         "title",
         "text_G7rDmV",
         "icon_with_text_xAYMRT",
