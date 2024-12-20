@@ -365,6 +365,21 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "17347173269e27c359": {
+      "type": "apps",
+      "blocks": {
+        "judge_me_reviews_review_widget_TYhgnV": {
+          "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "judge_me_reviews_review_widget_TYhgnV"
+      ],
+      "settings": {
+        "include_margins": true
+      }
     }
   },
   "order": [
@@ -374,6 +389,7 @@
     "multicolumn_4A9Edp",
     "related-products",
     "collapsible_content_69HMLJ",
-    "multicolumn_yzdyrt"
+    "multicolumn_yzdyrt",
+    "17347173269e27c359"
   ]
 }
